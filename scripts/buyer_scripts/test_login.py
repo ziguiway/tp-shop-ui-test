@@ -36,7 +36,7 @@ class TestLogin:
         self.home_page.goto_login_page()
         img_url = (utils.DriverUtils.get_driver("buyer").
                    find_element(By.XPATH, "//*[@id='verify_code_img']").get_attribute("src"))
-        print(img_url)
+        # print(img_url)
         verify_code = CaptchaSolver.solve_captcha_from_url(img_url)
         self.login_page.buyer_login(username, password, verify_code)
 

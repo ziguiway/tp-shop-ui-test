@@ -89,11 +89,13 @@ class DriverUtils:
     @classmethod
     def quit_driver(cls, driver_type):
         if driver_type == 'buyer':
-            cls.get_driver('buyer').quit()
+            cls.__quit_buyer_driver()
         elif driver_type == 'app':
-            cls.get_driver("app").quit()
+            cls.__quit_APP_driver()
         elif driver_type == 'admin':
-            cls.get_driver("admin").quit()
+            cls.__quit_admin_driver()
+        else:
+            logging.error(f"{driver_type} 参数错误")
 
 
 def get_el_text(driver_type, xpath_str):

@@ -1,63 +1,1137 @@
-2024-10-01 14:22:56,261 ERROR [utils.py(is_el_exist_by_text:119)] - 获取文本元素失败,key_text:admin
-2024-10-01 14:25:09,362 ERROR [utils.py(is_el_exist_by_text:119)] - 获取文本元素失败,key_text:admin
-2024-10-01 14:27:04,625 ERROR [utils.py(is_el_exist_by_text:119)] - 获取文本元素失败,key_text:admin
-2024-10-01 14:30:37,159 ERROR [utils.py(is_el_exist_by_text:118)] - 获取文本元素失败,key_text:admin1
-2024-10-01 14:32:18,920 ERROR [utils.py(is_el_exist_by_text:118)] - 获取文本元素失败,key_text:admin1
-2024-10-01 14:33:44,420 ERROR [utils.py(is_el_exist_by_text:118)] - 获取文本元素失败,key_text:admin
-2024-10-01 14:40:03,230 ERROR [utils.py(is_el_exist_by_text:120)] - 获取文本元素失败,key_text:admin
-2024-10-01 16:31:02,061 ERROR [utils.py(is_el_exist_by_text:120)] - 获取文本元素失败,key_text:test_goods_add
-2024-10-01 16:42:48,514 ERROR [utils.py(is_el_exist_by_text:120)] - 获取文本元素失败,key_text:test_goods_add
-2024-10-01 16:45:33,998 ERROR [utils.py(is_el_exist_by_text:120)] - 获取文本元素失败,key_text:商品名称
-2024-10-01 16:46:26,316 ERROR [utils.py(is_el_exist_by_text:121)] - 获取文本元素失败,key_text:商品名称
-2024-10-01 16:59:17,386 ERROR [utils.py(is_el_exist_by_text:120)] - 获取文本元素失败,key_text:TP0001287
-2024-10-01 21:19:09,987 WARNING [connectionpool.py(urlopen:870)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000160F92B4F20>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ccfbf78367e28434ab90b0c3e3a2730b
-2024-10-01 21:19:14,088 WARNING [connectionpool.py(urlopen:870)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000160F922E450>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ccfbf78367e28434ab90b0c3e3a2730b
-2024-10-01 21:19:18,148 WARNING [connectionpool.py(urlopen:870)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000160F92B5310>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ccfbf78367e28434ab90b0c3e3a2730b
-2024-10-01 21:33:16,493 INFO [captcha_solver.py(solve_captcha_from_url:16)] - 正在从 URL 下载图片: http://hmshop-test.itheima.net/https://hmshop-test.itheima.net/index.php?m=Home&c=User&a=verify
-2024-10-01 21:33:16,638 ERROR [captcha_solver.py(solve_captcha_from_url:27)] - 验证码识别失败: 404 Client Error: Not Found for url: http://hmshop-test.itheima.net/https://hmshop-test.itheima.net/index.php?m=Home&c=User&a=verify
-2024-10-01 21:34:37,995 INFO [captcha_solver.py(solve_captcha_from_url:16)] - 正在从 URL 下载图片: https://hmshop-test.itheima.net/index.php?m=Home&c=User&a=verify
-2024-10-01 21:34:38,641 INFO [captcha_solver.py(solve_captcha_from_url:22)] - 图片下载成功，正在识别验证码...
-2024-10-01 21:34:38,674 INFO [captcha_solver.py(solve_captcha_from_url:24)] - 验证码识别成功
-[37m2024-10-01 21:47:09,178 INFO [captcha_solver.py(solve_captcha_from_url:16)] - 正在从 URL 下载图片: https://hmshop-test.itheima.net/index.php?m=Home&c=User&a=verify[0m
-[37m2024-10-01 21:47:10,435 INFO [captcha_solver.py(solve_captcha_from_url:22)] - 图片下载成功，正在识别验证码...[0m
-[37m2024-10-01 21:47:10,457 INFO [captcha_solver.py(solve_captcha_from_url:24)] - 验证码识别成功[0m
-[37m2024-10-01 21:50:08,552 INFO [captcha_solver.py(solve_captcha_from_url:16)] - 正在从 URL 下载图片: https://hmshop-test.itheima.net/index.php?m=Home&c=User&a=verify[0m
-[37m2024-10-01 21:50:10,836 INFO [captcha_solver.py(solve_captcha_from_url:22)] - 图片下载成功，正在识别验证码...[0m
-[37m2024-10-01 21:50:10,860 INFO [captcha_solver.py(solve_captcha_from_url:24)] - 验证码识别成功[0m
-[33m2024-10-01 22:01:52,172 WARNING [test_login.py(setup_class:27)] - 网页加载超时，停止加载。[0m
-[37m2024-10-01 22:01:55,159 INFO [captcha_solver.py(solve_captcha_from_url:16)] - 正在从 URL 下载图片: https://hmshop-test.itheima.net/index.php?m=Home&c=User&a=verify[0m
-[37m2024-10-01 22:01:56,768 INFO [captcha_solver.py(solve_captcha_from_url:22)] - 图片下载成功，正在识别验证码...[0m
-[37m2024-10-01 22:01:56,795 INFO [captcha_solver.py(solve_captcha_from_url:24)] - 验证码识别成功[0m
-[33m2024-10-01 22:04:29,647 WARNING [test_login.py(setup_class:27)] - 网页加载超时，停止加载。[0m
-[37m2024-10-01 22:04:32,743 INFO [captcha_solver.py(solve_captcha_from_url:16)] - 正在从 URL 下载图片: https://hmshop-test.itheima.net/index.php?m=Home&c=User&a=verify[0m
-[37m2024-10-01 22:04:35,211 INFO [captcha_solver.py(solve_captcha_from_url:22)] - 图片下载成功，正在识别验证码...[0m
-[37m2024-10-01 22:04:35,236 INFO [captcha_solver.py(solve_captcha_from_url:24)] - 验证码识别成功[0m
-[33m2024-10-01 22:08:27,978 WARNING [test_login.py(setup_class:27)] - 网页加载超时，停止加载。[0m
-[33m2024-10-01 22:09:01,634 WARNING [test_login.py(setup_class:27)] - 网页加载超时，停止加载。[0m
-[37m2024-10-01 22:09:04,475 INFO [captcha_solver.py(solve_captcha_from_url:16)] - 正在从 URL 下载图片: https://hmshop-test.itheima.net/index.php?m=Home&c=User&a=verify[0m
-[37m2024-10-01 22:09:05,724 INFO [captcha_solver.py(solve_captcha_from_url:22)] - 图片下载成功，正在识别验证码...[0m
-[37m2024-10-01 22:09:05,755 INFO [captcha_solver.py(solve_captcha_from_url:24)] - 验证码识别成功[0m
-[33m2024-10-01 22:09:41,830 WARNING [test_login.py(setup_class:27)] - 网页加载超时，停止加载。[0m
-[37m2024-10-01 22:09:44,967 INFO [captcha_solver.py(solve_captcha_from_url:16)] - 正在从 URL 下载图片: https://hmshop-test.itheima.net/index.php?m=Home&c=User&a=verify[0m
-[37m2024-10-01 22:09:46,764 INFO [captcha_solver.py(solve_captcha_from_url:22)] - 图片下载成功，正在识别验证码...[0m
-[37m2024-10-01 22:09:46,787 INFO [captcha_solver.py(solve_captcha_from_url:24)] - 验证码识别成功[0m
-[33m2024-10-01 22:09:59,305 WARNING [test_login.py(setup_class:27)] - 网页加载超时，停止加载。[0m
-[37m2024-10-01 22:10:03,216 INFO [captcha_solver.py(solve_captcha_from_url:16)] - 正在从 URL 下载图片: https://hmshop-test.itheima.net/index.php?m=Home&c=User&a=verify[0m
-[37m2024-10-01 22:10:04,458 INFO [captcha_solver.py(solve_captcha_from_url:22)] - 图片下载成功，正在识别验证码...[0m
-[37m2024-10-01 22:10:04,486 INFO [captcha_solver.py(solve_captcha_from_url:24)] - 验证码识别成功[0m
-[33m2024-10-01 22:10:37,902 WARNING [test_login.py(setup_class:27)] - 网页加载超时，停止加载。[0m
-[37m2024-10-01 22:10:40,700 INFO [captcha_solver.py(solve_captcha_from_url:16)] - 正在从 URL 下载图片: https://hmshop-test.itheima.net/index.php?m=Home&c=User&a=verify[0m
-[37m2024-10-01 22:10:42,531 INFO [captcha_solver.py(solve_captcha_from_url:22)] - 图片下载成功，正在识别验证码...[0m
-[37m2024-10-01 22:10:42,564 INFO [captcha_solver.py(solve_captcha_from_url:24)] - 验证码识别成功[0m
-[31m2024-10-01 22:11:13,361 ERROR [utils.py(is_el_exist_by_text:122)] - 元素未找到，key_text: 安全退出111，超时[0m
-[33m2024-10-01 22:36:05,559 WARNING [test_goods_search.py(setup_class:24)] - 网页加载超时，停止加载。[0m
-[37m2024-10-01 22:36:05,598 INFO [base_page.py(base_click:17)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
-[37m2024-10-01 22:36:05,598 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
-[37m2024-10-01 22:36:08,794 INFO [base_page.py(base_input:21)] - 正在输入元素:('name', 'username'), value:15716216311[0m
-[37m2024-10-01 22:36:08,795 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('name', 'username')[0m
-[37m2024-10-01 22:36:08,855 INFO [base_page.py(base_input:21)] - 正在输入元素:('name', 'password'), value:123456[0m
-[37m2024-10-01 22:36:08,855 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('name', 'password')[0m
-[37m2024-10-01 22:36:08,918 INFO [base_page.py(base_input:21)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
-[37m2024-10-01 22:36:08,918 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('name', 'verify_code')[0m
-[37m2024-10-01 22:36:08,975 INFO [base_page.py(base_click:17)] - 正在点击元素:('name', 'sbtbutton')[0m
-[37m2024-10-01 22:36:08,976 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 00:05:12,337 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 00:05:12,351 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 00:05:15,144 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 00:05:15,144 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 00:05:15,209 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 00:05:15,209 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 00:05:15,572 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 00:05:15,572 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 00:05:15,635 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 00:05:15,635 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 00:05:24,006 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:('iphone11',)[0m
+[37m2024-10-02 00:05:24,007 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 00:05:24,083 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 00:05:24,083 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 00:05:28,334 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 00:05:28,334 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 00:05:28,797 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 00:05:28,797 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 00:05:59,635 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 00:05:59,635 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 00:06:01,313 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 00:06:01,313 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 00:07:11,819 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 00:07:11,820 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 00:07:13,243 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 00:07:13,243 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 00:07:13,310 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 00:07:13,310 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 00:07:13,399 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 00:07:13,399 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 00:07:13,460 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 00:07:13,460 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 00:07:16,765 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:('iphone11 pro',)[0m
+[37m2024-10-02 00:07:16,765 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 00:07:16,840 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 00:07:16,840 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[33m2024-10-02 00:07:25,200 WARNING [connectionpool.py(urlopen:870)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000204B6102C30>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/32c8c70225eedcf77658512a4b45d7c5/url[0m
+[33m2024-10-02 00:07:29,288 WARNING [connectionpool.py(urlopen:870)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000204B61028D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/32c8c70225eedcf77658512a4b45d7c5/url[0m
+[33m2024-10-02 00:07:33,347 WARNING [connectionpool.py(urlopen:870)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000204B6103560>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/32c8c70225eedcf77658512a4b45d7c5/url[0m
+[37m2024-10-02 00:09:05,834 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 00:09:05,835 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 00:09:07,791 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 00:09:07,791 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 00:09:07,861 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 00:09:07,861 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 00:09:07,955 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 00:09:07,956 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 00:09:08,039 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 00:09:08,039 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 00:09:10,780 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:('iphone11',)[0m
+[37m2024-10-02 00:09:10,780 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 00:09:10,852 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 00:09:10,852 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[33m2024-10-02 00:09:19,458 WARNING [connectionpool.py(urlopen:870)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001893DC21C40>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/e01a0ffac674e43214ea262d33da6cdc/url[0m
+[33m2024-10-02 00:09:23,539 WARNING [connectionpool.py(urlopen:870)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001893DC21D30>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/e01a0ffac674e43214ea262d33da6cdc/url[0m
+[33m2024-10-02 00:09:27,597 WARNING [connectionpool.py(urlopen:870)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001893DC21FA0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/e01a0ffac674e43214ea262d33da6cdc/url[0m
+[33m2024-10-02 00:09:36,224 WARNING [connectionpool.py(urlopen:870)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001893DC23320>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/e01a0ffac674e43214ea262d33da6cdc/url[0m
+[33m2024-10-02 00:09:40,306 WARNING [connectionpool.py(urlopen:870)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001893DC82960>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/e01a0ffac674e43214ea262d33da6cdc/url[0m
+[33m2024-10-02 00:09:44,387 WARNING [connectionpool.py(urlopen:870)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001893DC82030>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/e01a0ffac674e43214ea262d33da6cdc/url[0m
+[37m2024-10-02 00:10:52,829 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 00:10:52,829 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 00:10:53,269 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 00:10:53,269 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 00:10:53,367 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 00:10:53,367 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 00:10:53,464 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 00:10:53,465 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 00:10:53,558 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 00:10:53,558 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 00:10:55,203 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:('iphone11',)[0m
+[37m2024-10-02 00:10:55,203 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 00:10:55,278 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 00:10:55,279 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[33m2024-10-02 00:11:02,485 WARNING [connectionpool.py(urlopen:870)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000185D58D14C0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ad619f1aaf6864eba1153c623187ea30/url[0m
+[33m2024-10-02 00:11:06,593 WARNING [connectionpool.py(urlopen:870)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000185D58D1A90>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/ad619f1aaf6864eba1153c623187ea30/url[0m
+[37m2024-10-02 08:16:08,626 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 08:16:08,626 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 08:16:09,623 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 08:16:09,623 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 08:16:09,710 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 08:16:09,710 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 08:16:09,782 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 08:16:09,782 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 08:16:09,847 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 08:16:09,848 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 08:16:12,422 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:('iphone11',)[0m
+[37m2024-10-02 08:16:12,422 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 08:16:12,504 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 08:16:12,504 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 08:16:43,008 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 08:16:43,009 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 08:16:44,022 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 08:16:44,022 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 08:16:44,096 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 08:16:44,097 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 08:16:44,182 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 08:16:44,182 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 08:16:44,261 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 08:16:44,261 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 08:16:46,898 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:('iphone11 pro',)[0m
+[37m2024-10-02 08:16:46,898 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 08:16:46,967 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 08:16:46,967 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 08:17:15,824 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 08:17:15,824 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 08:17:16,756 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 08:17:16,756 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 08:17:16,854 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 08:17:16,854 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 08:17:16,920 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 08:17:16,921 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 08:17:16,983 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 08:17:16,984 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 08:17:19,326 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:('iphone11 pro max',)[0m
+[37m2024-10-02 08:17:19,326 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 08:17:19,416 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 08:17:19,417 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 08:41:39,111 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 08:41:39,111 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 08:41:40,033 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 08:41:40,033 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 08:41:40,093 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 08:41:40,093 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 08:41:40,157 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 08:41:40,157 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 08:41:40,211 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 08:41:40,211 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 08:41:53,709 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:('iphone11',)[0m
+[37m2024-10-02 08:41:53,709 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 08:41:53,757 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 08:41:53,758 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[31m2024-10-02 08:41:54,558 ERROR [utils.py(is_el_exist_by_text:127)] - 获取文本元素失败, key_text: ('iphone11',), 异常信息: Message: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //*[text()='('iphone11',)'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[text()='('iphone11',)']' is not a valid XPath expression."}
+  (Session info: chrome=129.0.6668.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7BD15B125+29573]
+	(No symbol) [0x00007FF7BD0CFF50]
+	(No symbol) [0x00007FF7BCF8B6EA]
+	(No symbol) [0x00007FF7BCF922BE]
+	(No symbol) [0x00007FF7BCF94637]
+	(No symbol) [0x00007FF7BCF946F0]
+	(No symbol) [0x00007FF7BCFDF38F]
+	(No symbol) [0x00007FF7BCFDFA6C]
+	(No symbol) [0x00007FF7BD02B917]
+	(No symbol) [0x00007FF7BD00733F]
+	(No symbol) [0x00007FF7BD0286BC]
+	(No symbol) [0x00007FF7BD0070A3]
+	(No symbol) [0x00007FF7BCFD12DF]
+	(No symbol) [0x00007FF7BCFD2441]
+	GetHandleVerifier [0x00007FF7BD48C74D+3377581]
+	GetHandleVerifier [0x00007FF7BD4D7B47+3685799]
+	GetHandleVerifier [0x00007FF7BD4CCF6B+3641803]
+	GetHandleVerifier [0x00007FF7BD21B2A6+816390]
+	(No symbol) [0x00007FF7BD0DB25F]
+	(No symbol) [0x00007FF7BD0D7084]
+	(No symbol) [0x00007FF7BD0D7220]
+	(No symbol) [0x00007FF7BD0C607F]
+	BaseThreadInitThunk [0x00007FFB63CA7374+20]
+	RtlUserThreadStart [0x00007FFB64EBCC91+33]
+[0m
+[37m2024-10-02 08:42:09,754 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 08:42:09,755 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 08:42:10,239 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 08:42:10,239 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 08:42:10,290 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 08:42:10,290 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 08:42:10,344 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 08:42:10,344 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 08:42:10,389 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 08:42:10,389 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 08:42:11,805 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:('iphone11 pro',)[0m
+[37m2024-10-02 08:42:11,806 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 08:42:11,862 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 08:42:11,862 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[31m2024-10-02 08:42:12,656 ERROR [utils.py(is_el_exist_by_text:127)] - 获取文本元素失败, key_text: ('iphone11 pro',), 异常信息: Message: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //*[text()='('iphone11 pro',)'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[text()='('iphone11 pro',)']' is not a valid XPath expression."}
+  (Session info: chrome=129.0.6668.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7BD15B125+29573]
+	(No symbol) [0x00007FF7BD0CFF50]
+	(No symbol) [0x00007FF7BCF8B6EA]
+	(No symbol) [0x00007FF7BCF922BE]
+	(No symbol) [0x00007FF7BCF94637]
+	(No symbol) [0x00007FF7BCF946F0]
+	(No symbol) [0x00007FF7BCFDF38F]
+	(No symbol) [0x00007FF7BCFDFA6C]
+	(No symbol) [0x00007FF7BD02B917]
+	(No symbol) [0x00007FF7BD00733F]
+	(No symbol) [0x00007FF7BD0286BC]
+	(No symbol) [0x00007FF7BD0070A3]
+	(No symbol) [0x00007FF7BCFD12DF]
+	(No symbol) [0x00007FF7BCFD2441]
+	GetHandleVerifier [0x00007FF7BD48C74D+3377581]
+	GetHandleVerifier [0x00007FF7BD4D7B47+3685799]
+	GetHandleVerifier [0x00007FF7BD4CCF6B+3641803]
+	GetHandleVerifier [0x00007FF7BD21B2A6+816390]
+	(No symbol) [0x00007FF7BD0DB25F]
+	(No symbol) [0x00007FF7BD0D7084]
+	(No symbol) [0x00007FF7BD0D7220]
+	(No symbol) [0x00007FF7BD0C607F]
+	BaseThreadInitThunk [0x00007FFB63CA7374+20]
+	RtlUserThreadStart [0x00007FFB64EBCC91+33]
+[0m
+[37m2024-10-02 08:42:27,457 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 08:42:27,457 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 08:42:27,950 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 08:42:27,950 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 08:42:28,003 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 08:42:28,003 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 08:42:28,060 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 08:42:28,060 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 08:42:28,104 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 08:42:28,104 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 08:42:29,564 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:('iphone11 pro max',)[0m
+[37m2024-10-02 08:42:29,564 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 08:42:29,615 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 08:42:29,615 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[31m2024-10-02 08:42:30,429 ERROR [utils.py(is_el_exist_by_text:127)] - 获取文本元素失败, key_text: ('iphone11 pro max',), 异常信息: Message: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //*[text()='('iphone11 pro max',)'] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[text()='('iphone11 pro max',)']' is not a valid XPath expression."}
+  (Session info: chrome=129.0.6668.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7BD15B125+29573]
+	(No symbol) [0x00007FF7BD0CFF50]
+	(No symbol) [0x00007FF7BCF8B6EA]
+	(No symbol) [0x00007FF7BCF922BE]
+	(No symbol) [0x00007FF7BCF94637]
+	(No symbol) [0x00007FF7BCF946F0]
+	(No symbol) [0x00007FF7BCFDF38F]
+	(No symbol) [0x00007FF7BCFDFA6C]
+	(No symbol) [0x00007FF7BD02B917]
+	(No symbol) [0x00007FF7BD00733F]
+	(No symbol) [0x00007FF7BD0286BC]
+	(No symbol) [0x00007FF7BD0070A3]
+	(No symbol) [0x00007FF7BCFD12DF]
+	(No symbol) [0x00007FF7BCFD2441]
+	GetHandleVerifier [0x00007FF7BD48C74D+3377581]
+	GetHandleVerifier [0x00007FF7BD4D7B47+3685799]
+	GetHandleVerifier [0x00007FF7BD4CCF6B+3641803]
+	GetHandleVerifier [0x00007FF7BD21B2A6+816390]
+	(No symbol) [0x00007FF7BD0DB25F]
+	(No symbol) [0x00007FF7BD0D7084]
+	(No symbol) [0x00007FF7BD0D7220]
+	(No symbol) [0x00007FF7BD0C607F]
+	BaseThreadInitThunk [0x00007FFB63CA7374+20]
+	RtlUserThreadStart [0x00007FFB64EBCC91+33]
+[0m
+[37m2024-10-02 08:42:49,708 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 08:42:49,709 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 08:42:50,238 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 08:42:50,238 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 08:42:50,300 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 08:42:50,300 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 08:42:50,367 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 08:42:50,367 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 08:42:50,423 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 08:42:50,423 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 08:42:51,868 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:('iphone11',)[0m
+[37m2024-10-02 08:42:51,869 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 08:42:51,932 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 08:42:51,932 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 08:43:07,207 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 08:43:07,208 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 08:43:07,723 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 08:43:07,723 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 08:43:07,784 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 08:43:07,784 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 08:43:07,851 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 08:43:07,851 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 08:43:07,906 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 08:43:07,906 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 08:43:09,430 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:('iphone11 pro',)[0m
+[37m2024-10-02 08:43:09,431 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 08:43:09,500 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 08:43:09,501 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 08:43:24,597 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 08:43:24,597 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 08:43:25,141 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 08:43:25,141 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 08:43:25,204 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 08:43:25,204 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 08:43:25,270 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 08:43:25,271 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 08:43:25,323 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 08:43:25,323 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 08:43:26,635 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:('iphone11 pro max',)[0m
+[37m2024-10-02 08:43:26,635 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 08:43:26,721 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 08:43:26,721 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[33m2024-10-02 11:50:58,700 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 11:51:10,244 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 11:51:10,244 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 11:51:10,690 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 11:51:10,690 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 11:51:10,768 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 11:51:10,768 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 11:51:10,827 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 11:51:10,827 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 11:51:10,882 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 11:51:10,883 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 11:51:11,182 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 11:51:11,182 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 11:51:11,245 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 11:51:11,245 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 11:51:12,156 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 11:51:12,156 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[33m2024-10-02 11:55:13,523 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 11:55:25,911 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 11:55:25,911 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 11:55:26,443 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 11:55:26,443 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 11:55:26,506 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 11:55:26,506 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 11:55:26,574 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 11:55:26,574 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 11:55:26,635 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 11:55:26,635 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 11:55:27,081 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 11:55:27,081 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 11:55:27,142 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 11:55:27,142 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 11:55:28,181 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 11:55:28,182 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 11:55:29,575 INFO [base_page.py(base_click:19)] - 正在点击元素:('id', 'join_cart')[0m
+[37m2024-10-02 11:55:29,575 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'join_cart')[0m
+[33m2024-10-02 11:57:10,104 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 11:57:22,516 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 11:57:22,516 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 11:57:23,000 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 11:57:23,000 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 11:57:23,049 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 11:57:23,050 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 11:57:23,099 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 11:57:23,099 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 11:57:23,141 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 11:57:23,141 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 11:57:23,475 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 11:57:23,475 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 11:57:23,533 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 11:57:23,533 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 11:57:23,832 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 11:57:23,832 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 11:57:25,553 INFO [base_page.py(base_click:19)] - 正在点击元素:('id', 'join_cart')[0m
+[37m2024-10-02 11:57:25,554 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'join_cart')[0m
+[33m2024-10-02 11:57:43,338 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 11:57:56,529 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 11:57:56,529 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 11:57:56,981 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 11:57:56,981 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 11:57:57,043 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 11:57:57,044 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 11:57:57,111 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 11:57:57,112 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 11:57:57,169 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 11:57:57,169 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 11:57:57,557 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 11:57:57,557 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 11:57:57,618 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 11:57:57,618 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 11:57:58,429 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 11:57:58,429 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 11:57:59,659 INFO [base_page.py(base_click:19)] - 正在点击元素:('id', 'join_cart')[0m
+[37m2024-10-02 11:57:59,659 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'join_cart')[0m
+[33m2024-10-02 11:59:24,277 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 11:59:36,389 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 11:59:36,390 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 11:59:36,832 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 11:59:36,832 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 11:59:36,894 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 11:59:36,894 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 11:59:36,958 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 11:59:36,959 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 11:59:37,016 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 11:59:37,016 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 11:59:37,335 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 11:59:37,335 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 11:59:37,403 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 11:59:37,403 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 11:59:38,194 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 11:59:38,194 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 11:59:39,413 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', "//*[@id='join_cart']")[0m
+[37m2024-10-02 11:59:39,413 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', "//*[@id='join_cart']")[0m
+[33m2024-10-02 12:00:35,010 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 12:00:47,088 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 12:00:47,088 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 12:00:47,642 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 12:00:47,642 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 12:00:47,702 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 12:00:47,702 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 12:00:47,765 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 12:00:47,765 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 12:00:47,817 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 12:00:47,817 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 12:00:48,294 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 12:00:48,294 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 12:00:48,363 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 12:00:48,363 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 12:00:48,662 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 12:00:48,663 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 12:00:50,420 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', "//*[@id='join_cart']")[0m
+[37m2024-10-02 12:00:50,420 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', "//*[@id='join_cart']")[0m
+[33m2024-10-02 12:01:32,713 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 12:01:45,163 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 12:01:45,163 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 12:01:45,746 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 12:01:45,746 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 12:01:45,820 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 12:01:45,820 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 12:01:45,900 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 12:01:45,900 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 12:01:45,971 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 12:01:45,971 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 12:01:46,359 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 12:01:46,360 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 12:01:46,429 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 12:01:46,429 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 12:01:46,750 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 12:01:46,750 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 12:01:48,813 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', "//*[@id='join_cart']")[0m
+[37m2024-10-02 12:01:48,814 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', "//*[@id='join_cart']")[0m
+[33m2024-10-02 12:02:50,293 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 12:03:02,803 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 12:03:02,803 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 12:03:03,474 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 12:03:03,474 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 12:03:03,534 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 12:03:03,534 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 12:03:03,598 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 12:03:03,599 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 12:03:03,653 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 12:03:03,654 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 12:03:04,035 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 12:03:04,035 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 12:03:04,093 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 12:03:04,094 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 12:03:04,903 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 12:03:04,903 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 12:03:06,148 INFO [base_page.py(base_click:19)] - 正在点击元素:('id', 'join_cart')[0m
+[37m2024-10-02 12:03:06,148 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'join_cart')[0m
+[33m2024-10-02 12:04:09,157 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 12:04:21,142 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 12:04:21,142 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 12:04:21,658 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 12:04:21,659 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 12:04:21,720 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 12:04:21,720 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 12:04:21,785 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 12:04:21,785 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 12:04:21,846 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 12:04:21,846 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 12:04:22,236 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 12:04:22,236 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 12:04:22,298 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 12:04:22,299 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 12:04:23,072 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 12:04:23,072 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 12:04:24,528 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[3]/div/form/div/div[7]/div/a[2]')[0m
+[37m2024-10-02 12:04:24,528 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[3]/div/form/div/div[7]/div/a[2]')[0m
+[33m2024-10-02 12:23:18,481 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 12:23:30,307 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 12:23:30,307 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 12:23:30,872 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 12:23:30,872 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 12:23:30,918 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 12:23:30,918 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 12:23:30,970 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 12:23:30,970 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 12:23:31,015 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 12:23:31,016 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 12:23:31,411 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 12:23:31,412 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 12:23:31,469 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 12:23:31,469 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 12:23:31,757 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 12:23:31,758 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 12:23:33,377 INFO [base_page.py(base_click:19)] - 正在点击元素:('id', 'join_cart')[0m
+[37m2024-10-02 12:23:33,377 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'join_cart')[0m
+[33m2024-10-02 12:23:51,203 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 12:24:03,420 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 12:24:03,420 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 12:24:03,972 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 12:24:03,972 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 12:24:04,034 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 12:24:04,034 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 12:24:04,098 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 12:24:04,098 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 12:24:04,153 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 12:24:04,153 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 12:24:04,539 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 12:24:04,539 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 12:24:04,604 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 12:24:04,604 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 12:24:05,429 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 12:24:05,429 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 12:24:06,648 INFO [base_page.py(base_click:19)] - 正在点击元素:('id', 'join_cart')[0m
+[37m2024-10-02 12:24:06,649 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'join_cart')[0m
+[33m2024-10-02 12:24:32,952 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 12:24:44,832 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 12:24:44,832 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 12:24:45,362 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 12:24:45,362 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 12:24:45,425 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 12:24:45,425 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 12:24:45,487 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 12:24:45,487 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 12:24:45,545 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 12:24:45,545 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 12:24:45,854 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 12:24:45,855 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 12:24:45,922 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 12:24:45,922 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 12:24:46,199 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 12:24:46,199 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 12:24:48,135 INFO [base_page.py(base_click:19)] - 正在点击元素:('id', 'join_cart')[0m
+[37m2024-10-02 12:24:48,135 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'join_cart')[0m
+[33m2024-10-02 12:25:24,002 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 12:25:36,388 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 12:25:36,389 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 12:25:36,998 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 12:25:36,999 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 12:25:37,065 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 12:25:37,065 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 12:25:37,127 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 12:25:37,128 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 12:25:37,184 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 12:25:37,184 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 12:25:37,596 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 12:25:37,596 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 12:25:37,661 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 12:25:37,662 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 12:25:37,941 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 12:25:37,941 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 12:25:39,900 INFO [base_page.py(base_click:19)] - 正在点击元素:('id', 'join_cart')[0m
+[37m2024-10-02 12:25:39,900 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'join_cart')[0m
+[33m2024-10-02 14:09:41,905 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 14:09:54,702 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:09:54,702 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:09:55,298 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:09:55,298 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:09:55,357 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:09:55,357 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:09:55,423 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:09:55,423 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:09:55,485 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:09:55,485 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:09:55,808 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 14:09:55,809 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 14:09:55,868 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:09:55,868 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:09:56,150 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:09:56,150 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:09:57,888 INFO [base_page.py(base_click:19)] - 正在点击元素:('id', 'join_cart')[0m
+[37m2024-10-02 14:09:57,889 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'join_cart')[0m
+[33m2024-10-02 14:11:20,445 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 14:11:33,003 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:11:33,003 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:11:33,474 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:11:33,474 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:11:33,540 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:11:33,540 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:11:33,611 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:11:33,611 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:11:33,672 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:11:33,673 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:11:35,226 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:('iphone',)[0m
+[37m2024-10-02 14:11:35,226 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 14:11:35,290 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:11:35,291 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[33m2024-10-02 14:11:52,329 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 14:11:56,360 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:admin[0m
+[37m2024-10-02 14:11:56,360 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:11:56,471 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:HM_2023_test[0m
+[37m2024-10-02 14:11:56,471 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:11:56,558 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'vertify'), value:8888[0m
+[37m2024-10-02 14:11:56,558 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'vertify')[0m
+[37m2024-10-02 14:11:56,620 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'submit')[0m
+[37m2024-10-02 14:11:56,620 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'submit')[0m
+[37m2024-10-02 14:11:58,295 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '//div[3]/ul/li[4]')[0m
+[37m2024-10-02 14:11:58,296 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '//div[3]/ul/li[4]')[0m
+[37m2024-10-02 14:11:58,356 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', "//*[@id='admincpNavTabs_goods']/dl[1]/dd/ul/li[1]/a")[0m
+[37m2024-10-02 14:11:58,356 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', "//*[@id='admincpNavTabs_goods']/dl[1]/dd/ul/li[1]/a")[0m
+[37m2024-10-02 14:11:58,402 INFO [base_page.py(base_switch_to_frame:35)] - 正在切换到frame:workspace[0m
+[37m2024-10-02 14:11:58,930 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', "//*[text()='添加商品']")[0m
+[37m2024-10-02 14:11:58,931 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', "//*[text()='添加商品']")[0m
+[37m2024-10-02 14:11:59,881 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'goods_name'), value:1727849511test_goods_add[0m
+[37m2024-10-02 14:11:59,881 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'goods_name')[0m
+[37m2024-10-02 14:12:00,009 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'cat_id')[0m
+[37m2024-10-02 14:12:00,091 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'cat_id_2')[0m
+[37m2024-10-02 14:12:00,273 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'cat_id_3')[0m
+[37m2024-10-02 14:12:00,453 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'shop_price'), value:100[0m
+[37m2024-10-02 14:12:00,453 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'shop_price')[0m
+[37m2024-10-02 14:12:00,518 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'market_price'), value:100[0m
+[37m2024-10-02 14:12:00,519 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'market_price')[0m
+[37m2024-10-02 14:12:00,592 INFO [base_page.py(base_click:19)] - 正在点击元素:('id', 'is_free_shipping_label_1')[0m
+[37m2024-10-02 14:12:00,593 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'is_free_shipping_label_1')[0m
+[37m2024-10-02 14:12:00,688 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', "//*[text()='确认提交']")[0m
+[37m2024-10-02 14:12:00,689 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', "//*[text()='确认提交']")[0m
+[33m2024-10-02 14:12:10,007 WARNING [connectionpool.py(urlopen:870)] - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022A3A1A68A0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/5d93fde39bb32c54d96b2d090bf8a572/url[0m
+[33m2024-10-02 14:12:14,092 WARNING [connectionpool.py(urlopen:870)] - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022A3A28F2C0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/5d93fde39bb32c54d96b2d090bf8a572/url[0m
+[33m2024-10-02 14:12:18,182 WARNING [connectionpool.py(urlopen:870)] - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022A3A28F470>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/5d93fde39bb32c54d96b2d090bf8a572/url[0m
+[33m2024-10-02 14:12:23,293 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 14:12:35,301 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:12:35,302 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:12:35,865 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:12:35,865 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:12:35,933 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:12:35,934 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:12:36,002 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:12:36,002 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:12:36,061 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:12:36,061 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:12:36,495 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 14:12:36,496 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 14:12:36,566 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:12:36,566 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:12:36,863 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:12:36,863 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:12:38,559 INFO [base_page.py(base_click:19)] - 正在点击元素:('id', 'join_cart')[0m
+[37m2024-10-02 14:12:38,559 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'join_cart')[0m
+[33m2024-10-02 14:12:42,565 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 14:12:54,874 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:12:54,875 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:12:55,464 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:12:55,465 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:12:55,525 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:12:55,525 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:12:55,604 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:12:55,604 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:12:55,666 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:12:55,666 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:12:57,178 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:('iphone',)[0m
+[37m2024-10-02 14:12:57,179 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 14:12:57,249 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:12:57,250 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[33m2024-10-02 14:13:00,695 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[33m2024-10-02 14:13:06,972 WARNING [test_login.py(setup_class:27)] - 网页加载超时，停止加载。[0m
+[37m2024-10-02 14:13:06,998 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:13:06,998 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:13:07,904 INFO [captcha_solver.py(solve_captcha_from_url:16)] - 正在从 URL 下载图片: https://hmshop-test.itheima.net/index.php?m=Home&c=User&a=verify[0m
+[37m2024-10-02 14:13:08,230 INFO [captcha_solver.py(solve_captcha_from_url:22)] - 图片下载成功，正在识别验证码...[0m
+[37m2024-10-02 14:13:08,254 INFO [captcha_solver.py(solve_captcha_from_url:24)] - 验证码识别成功[0m
+[37m2024-10-02 14:13:08,259 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:13:08,260 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:13:08,328 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:13:08,328 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:13:08,397 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:13:08,397 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:13:08,460 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:13:08,460 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[33m2024-10-02 14:15:33,945 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[33m2024-10-02 14:15:40,192 WARNING [test_login.py(setup_class:27)] - 网页加载超时，停止加载。[0m
+[37m2024-10-02 14:15:40,202 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:15:40,202 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:15:41,083 INFO [captcha_solver.py(solve_captcha_from_url:16)] - 正在从 URL 下载图片: https://hmshop-test.itheima.net/index.php?m=Home&c=User&a=verify[0m
+[37m2024-10-02 14:15:41,428 INFO [captcha_solver.py(solve_captcha_from_url:22)] - 图片下载成功，正在识别验证码...[0m
+[37m2024-10-02 14:15:41,451 INFO [captcha_solver.py(solve_captcha_from_url:24)] - 验证码识别成功[0m
+[37m2024-10-02 14:15:41,455 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:15:41,455 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:15:41,513 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:15:41,513 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:15:41,574 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:15:41,575 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:15:41,626 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:15:41,626 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[33m2024-10-02 14:15:56,513 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 14:16:08,459 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:16:08,459 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:16:08,996 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:16:08,996 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:16:09,052 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:16:09,052 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:16:09,095 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:16:09,095 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:16:09,134 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:16:09,134 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:16:10,594 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:('iphone',)[0m
+[37m2024-10-02 14:16:10,594 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 14:16:10,632 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:16:10,632 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[33m2024-10-02 14:16:28,138 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 14:16:34,512 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:16:34,512 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:16:35,137 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:16:35,137 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:16:35,194 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:16:35,195 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:16:35,264 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:16:35,264 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:16:35,327 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:16:35,328 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:16:42,355 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:('iphone',)[0m
+[37m2024-10-02 14:16:42,355 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 14:16:42,402 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:16:42,403 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[33m2024-10-02 14:16:45,931 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 14:16:57,726 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:16:57,726 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:16:58,204 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:16:58,204 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:16:58,264 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:16:58,264 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:16:58,329 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:16:58,329 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:16:58,386 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:16:58,386 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:16:59,766 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:('小米',)[0m
+[37m2024-10-02 14:16:59,766 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 14:16:59,819 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:16:59,819 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[33m2024-10-02 14:18:50,348 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 14:19:02,438 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:19:02,438 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:19:03,014 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:19:03,014 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:19:03,074 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:19:03,074 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:19:03,135 INFO [base_page.py(base_input:23)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:19:03,135 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:19:03,190 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:19:03,190 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:19:03,515 INFO [base_page.py(base_input:23)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 14:19:03,515 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 14:19:03,592 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:19:03,592 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:19:04,460 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:19:04,461 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:19:05,613 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '//*[@id="join_cart"]')[0m
+[37m2024-10-02 14:19:05,613 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '//*[@id="join_cart"]')[0m
+[33m2024-10-02 14:20:27,078 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 14:20:40,966 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:20:40,966 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:20:40,993 INFO [base_page.py(base_click:20)] - 登录[0m
+[37m2024-10-02 14:20:40,994 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:20:41,432 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:20:41,432 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:20:41,491 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:20:41,491 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:20:41,556 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:20:41,556 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:20:41,611 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:20:41,611 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:20:41,630 INFO [base_page.py(base_click:20)] - 登    录[0m
+[37m2024-10-02 14:20:41,631 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:20:42,010 INFO [base_page.py(base_input:24)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 14:20:42,010 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 14:20:42,063 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:20:42,063 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:20:42,081 INFO [base_page.py(base_click:20)] - 搜索[0m
+[37m2024-10-02 14:20:42,081 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:20:42,838 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:20:42,838 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:20:42,863 INFO [base_page.py(base_click:20)] - [0m
+[37m2024-10-02 14:20:42,863 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:20:44,533 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '//*[@id="join_cart"]')[0m
+[37m2024-10-02 14:20:44,533 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '//*[@id="join_cart"]')[0m
+[37m2024-10-02 14:20:44,552 INFO [base_page.py(base_click:20)] - 加入购物车[0m
+[37m2024-10-02 14:20:44,553 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '//*[@id="join_cart"]')[0m
+[33m2024-10-02 14:23:28,027 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 14:23:41,118 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:23:41,118 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:23:41,143 INFO [base_page.py(base_click:20)] - hhhhhhhhhhhhhhhhhhh登录[0m
+[37m2024-10-02 14:23:41,143 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:23:41,695 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:23:41,695 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:23:41,769 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:23:41,769 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:23:41,814 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:23:41,814 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:23:41,859 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:23:41,859 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:23:41,877 INFO [base_page.py(base_click:20)] - hhhhhhhhhhhhhhhhhhh登    录[0m
+[37m2024-10-02 14:23:41,877 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:23:42,255 INFO [base_page.py(base_input:24)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 14:23:42,255 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 14:23:42,302 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:23:42,302 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:23:42,319 INFO [base_page.py(base_click:20)] - hhhhhhhhhhhhhhhhhhh搜索[0m
+[37m2024-10-02 14:23:42,319 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:23:42,609 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:23:42,609 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:23:43,153 INFO [base_page.py(base_click:20)] - hhhhhhhhhhhhhhhhhhh[0m
+[37m2024-10-02 14:23:43,153 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:23:45,095 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '//*[@id="join_cart"]')[0m
+[37m2024-10-02 14:23:45,095 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '//*[@id="join_cart"]')[0m
+[37m2024-10-02 14:23:45,112 INFO [base_page.py(base_click:20)] - hhhhhhhhhhhhhhhhhhh加入购物车[0m
+[37m2024-10-02 14:23:45,112 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '//*[@id="join_cart"]')[0m
+[33m2024-10-02 14:25:30,531 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 14:25:44,977 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:25:44,977 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:25:45,589 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:25:45,589 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:25:45,653 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:25:45,653 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:25:45,717 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:25:45,717 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:25:45,770 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:25:45,770 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:25:46,175 INFO [base_page.py(base_input:24)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 14:25:46,175 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 14:25:46,246 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:25:46,246 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:25:46,557 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:25:46,557 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:25:48,808 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '//*[@id="join_cart"]')[0m
+[37m2024-10-02 14:25:48,808 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '//*[@id="join_cart"]')[0m
+[33m2024-10-02 14:26:00,769 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 14:26:12,439 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:26:12,439 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:26:12,974 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:26:12,974 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:26:13,039 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:26:13,039 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:26:13,101 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:26:13,101 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:26:13,160 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:26:13,161 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:26:13,547 INFO [base_page.py(base_input:24)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 14:26:13,548 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 14:26:13,609 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:26:13,609 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:26:14,397 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:26:14,398 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:26:15,549 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '//*[@id="join_cart"]')[0m
+[37m2024-10-02 14:26:15,549 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '//*[@id="join_cart"]')[0m
+[33m2024-10-02 14:26:51,822 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 14:27:05,371 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:27:05,371 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:27:06,040 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:27:06,040 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:27:06,105 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:27:06,105 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:27:06,168 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:27:06,168 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:27:06,223 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:27:06,223 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:27:06,856 INFO [base_page.py(base_input:24)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 14:27:06,856 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 14:27:06,917 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:27:06,918 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:27:07,753 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:27:07,754 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:27:09,302 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '//*[@id="join_cart"]')[0m
+[37m2024-10-02 14:27:09,302 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '//*[@id="join_cart"]')[0m
+[33m2024-10-02 14:28:29,614 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[33m2024-10-02 14:28:35,865 WARNING [test_login.py(setup_class:27)] - 网页加载超时，停止加载。[0m
+[37m2024-10-02 14:28:35,888 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:28:35,888 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:28:37,008 INFO [captcha_solver.py(solve_captcha_from_url:16)] - 正在从 URL 下载图片: https://hmshop-test.itheima.net/index.php?m=Home&c=User&a=verify[0m
+[37m2024-10-02 14:28:37,416 INFO [captcha_solver.py(solve_captcha_from_url:22)] - 图片下载成功，正在识别验证码...[0m
+[37m2024-10-02 14:28:37,439 INFO [captcha_solver.py(solve_captcha_from_url:24)] - 验证码识别成功[0m
+[37m2024-10-02 14:28:37,443 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:28:37,443 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:28:37,503 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:28:37,503 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:28:37,568 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:28:37,568 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:28:37,623 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:28:37,623 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[33m2024-10-02 14:29:58,521 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 14:30:10,446 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:30:10,446 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:30:10,901 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:30:10,901 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:30:10,966 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:30:10,966 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:30:11,031 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:30:11,031 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:30:11,088 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:30:11,089 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:30:13,710 INFO [base_page.py(base_input:24)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 14:30:13,710 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 14:30:13,769 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:30:13,769 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:30:14,603 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:30:14,603 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:30:15,731 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '//*[@id="join_cart"]')[0m
+[37m2024-10-02 14:30:15,731 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '//*[@id="join_cart"]')[0m
+[33m2024-10-02 14:31:45,918 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 14:31:57,607 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:31:57,607 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:31:58,139 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:31:58,139 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:31:58,199 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:31:58,200 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:31:58,266 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:31:58,266 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:31:58,321 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:31:58,322 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:31:59,967 INFO [base_page.py(base_input:24)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 14:31:59,967 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 14:32:00,031 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:32:00,031 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:32:00,315 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:32:00,316 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:32:02,014 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '//*[@id="join_cart"]')[0m
+[37m2024-10-02 14:32:02,014 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '//*[@id="join_cart"]')[0m
+[33m2024-10-02 14:32:40,172 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 14:32:52,944 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:32:52,944 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:32:53,590 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:32:53,590 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:32:53,651 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:32:53,651 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:32:53,714 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:32:53,714 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:32:53,771 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:32:53,771 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:32:55,398 INFO [base_page.py(base_input:24)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 14:32:55,398 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 14:32:55,457 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:32:55,457 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:32:55,734 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:32:55,734 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:33:07,987 INFO [base_page.py(base_click:19)] - 正在点击元素:('id', 'join_cart')[0m
+[37m2024-10-02 14:33:07,987 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'join_cart')[0m
+[33m2024-10-02 14:33:31,005 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 14:33:43,535 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:33:43,536 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:33:44,012 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:33:44,012 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:33:44,075 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:33:44,075 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:33:44,141 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:33:44,141 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:33:44,202 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:33:44,202 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:33:45,955 INFO [base_page.py(base_input:24)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 14:33:45,955 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 14:33:46,014 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:33:46,014 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:33:46,314 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:33:46,315 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:33:48,408 INFO [base_page.py(base_click:19)] - 正在点击元素:('id', 'join_cart')[0m
+[37m2024-10-02 14:33:48,408 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'join_cart')[0m
+[33m2024-10-02 14:34:16,600 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache[0m
+[37m2024-10-02 14:34:28,696 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:34:28,696 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:34:29,177 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:34:29,178 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:34:29,250 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:34:29,250 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:34:29,322 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:34:29,322 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:34:29,385 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:34:29,386 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:34:31,075 INFO [base_page.py(base_input:24)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 14:34:31,075 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 14:34:31,145 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:34:31,145 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:34:31,460 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:34:31,460 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:34:33,318 INFO [base_page.py(base_click:19)] - 正在点击元素:('id', 'join_cart')[0m
+[37m2024-10-02 14:34:33,318 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'join_cart')[0m
+[37m2024-10-02 14:38:04,711 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:38:04,711 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:38:05,439 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:38:05,439 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:38:05,499 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:38:05,500 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:38:05,563 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:38:05,563 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:38:05,615 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:38:05,615 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:38:07,315 INFO [base_page.py(base_input:24)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 14:38:07,316 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 14:38:07,376 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:38:07,376 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:38:07,675 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:38:07,675 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:38:09,403 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[3]/div/form/div/div[7]/div/a[1]')[0m
+[37m2024-10-02 14:38:09,403 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[3]/div/form/div/div[7]/div/a[1]')[0m
+[37m2024-10-02 14:38:48,718 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:38:48,719 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:38:49,178 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:38:49,178 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:38:49,243 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:38:49,243 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:38:49,307 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:38:49,307 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:38:49,368 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:38:49,368 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:38:51,014 INFO [base_page.py(base_input:24)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 14:38:51,014 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 14:38:51,074 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:38:51,074 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:38:51,391 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:38:51,391 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:42:53,788 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:42:53,788 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:42:54,283 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:42:54,283 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:42:54,347 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:42:54,347 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:42:54,415 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:42:54,415 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:42:54,475 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:42:54,475 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:42:55,838 INFO [base_page.py(base_input:24)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 14:42:55,838 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 14:42:55,895 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:42:55,895 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:42:56,183 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:42:56,184 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:42:57,884 INFO [base_page.py(base_click:19)] - 正在点击元素:('css selector', '#join_cart > i')[0m
+[37m2024-10-02 14:42:57,885 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('css selector', '#join_cart > i')[0m
+[37m2024-10-02 14:53:20,051 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:53:20,052 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:53:20,616 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:53:20,616 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:53:20,676 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:53:20,676 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:53:20,743 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:53:20,743 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:53:20,799 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:53:20,799 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:53:22,145 INFO [base_page.py(base_input:24)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 14:53:22,146 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 14:53:22,221 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:53:22,221 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:53:22,506 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:53:22,506 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:53:24,209 INFO [base_page.py(base_click:19)] - 正在点击元素:('css selector', '#join_cart > i')[0m
+[37m2024-10-02 14:53:24,209 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('css selector', '#join_cart > i')[0m
+[37m2024-10-02 14:54:06,233 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:54:06,233 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:54:06,668 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:54:06,668 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:54:06,731 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:54:06,731 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:54:06,796 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:54:06,796 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:54:06,851 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:54:06,851 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:54:08,157 INFO [base_page.py(base_input:24)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 14:54:08,158 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 14:54:08,214 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:54:08,215 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:54:09,031 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:54:09,032 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:54:10,650 INFO [base_page.py(base_click:19)] - 正在点击元素:('css selector', '#join_cart > i')[0m
+[37m2024-10-02 14:54:10,651 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('css selector', '#join_cart > i')[0m
+[37m2024-10-02 14:55:35,306 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:55:35,306 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:55:35,884 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:55:35,884 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:55:35,942 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:55:35,942 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:55:36,006 INFO [base_page.py(base_input:24)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:55:36,006 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:55:36,061 INFO [base_page.py(base_click:19)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:55:36,061 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:55:37,488 INFO [base_page.py(base_input:24)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 14:55:37,488 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 14:55:37,548 INFO [base_page.py(base_click:19)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:55:37,549 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:55:37,837 INFO [base_page.py(base_click:19)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:55:37,838 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:55:39,953 INFO [base_page.py(base_click:19)] - 正在点击元素:('css selector', '#join_cart > i')[0m
+[37m2024-10-02 14:55:39,953 INFO [base_page.py(base_find_element:15)] - 正在查找元素:('css selector', '#join_cart > i')[0m
+[37m2024-10-02 14:57:17,426 INFO [base_page.py(base_click:17)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:57:17,427 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:57:17,868 INFO [base_page.py(base_input:22)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:57:17,868 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:57:17,934 INFO [base_page.py(base_input:22)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:57:17,934 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:57:17,999 INFO [base_page.py(base_input:22)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:57:17,999 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:57:18,056 INFO [base_page.py(base_click:17)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:57:18,057 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:57:19,632 INFO [base_page.py(base_input:22)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 14:57:19,633 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 14:57:19,697 INFO [base_page.py(base_click:17)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:57:19,697 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:57:20,454 INFO [base_page.py(base_click:17)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:57:20,454 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:57:21,695 INFO [base_page.py(base_click:17)] - 正在点击元素:('css selector', '#join_cart > i')[0m
+[37m2024-10-02 14:57:21,695 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('css selector', '#join_cart > i')[0m
+[37m2024-10-02 14:58:30,076 INFO [base_page.py(base_click:17)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:58:30,077 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 14:58:30,893 INFO [base_page.py(base_input:22)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 14:58:30,893 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 14:58:30,948 INFO [base_page.py(base_input:22)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 14:58:30,948 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 14:58:31,015 INFO [base_page.py(base_input:22)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 14:58:31,015 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 14:58:31,075 INFO [base_page.py(base_click:17)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:58:31,075 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 14:58:40,629 INFO [base_page.py(base_input:22)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 14:58:40,629 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 14:58:40,673 INFO [base_page.py(base_click:17)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:58:40,673 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 14:58:40,954 INFO [base_page.py(base_click:17)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:58:40,954 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 14:58:42,844 INFO [base_page.py(base_click:17)] - 正在点击元素:('css selector', '#join_cart > i')[0m
+[37m2024-10-02 14:58:42,844 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('css selector', '#join_cart > i')[0m
+[37m2024-10-02 14:58:42,884 INFO [base_page.py(base_switch_to_frame:34)] - 正在切换到frame:('css selector', '[id*=layui-layer-iframe]')[0m
+[37m2024-10-02 14:58:42,884 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('css selector', '[id*=layui-layer-iframe]')[0m
+[37m2024-10-02 15:04:51,175 INFO [base_page.py(base_click:17)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 15:04:51,176 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 15:04:52,400 INFO [base_page.py(base_input:22)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 15:04:52,400 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 15:04:52,461 INFO [base_page.py(base_input:22)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 15:04:52,461 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 15:04:52,528 INFO [base_page.py(base_input:22)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 15:04:52,528 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 15:04:52,587 INFO [base_page.py(base_click:17)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 15:04:52,587 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 15:04:55,670 INFO [base_page.py(base_input:22)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 15:04:55,671 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 15:04:55,730 INFO [base_page.py(base_click:17)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 15:04:55,731 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 15:04:57,361 INFO [base_page.py(base_click:17)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 15:04:57,361 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 15:05:00,441 INFO [base_page.py(base_click:17)] - 正在点击元素:('css selector', '#join_cart > i')[0m
+[37m2024-10-02 15:05:00,442 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('css selector', '#join_cart > i')[0m
+[37m2024-10-02 15:05:00,484 INFO [base_page.py(base_switch_to_frame:34)] - 正在切换到frame:('css selector', '[id*=layui-layer-iframe]')[0m
+[37m2024-10-02 15:05:00,484 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('css selector', '[id*=layui-layer-iframe]')[0m
+[37m2024-10-02 15:10:16,283 INFO [base_page.py(base_click:17)] - 正在点击元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 15:10:16,283 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('xpath', '/html/body/div[1]/div[1]/div/div/div[2]/a[1]')[0m
+[37m2024-10-02 15:10:17,316 INFO [base_page.py(base_input:22)] - 正在输入元素:('name', 'username'), value:15716216311[0m
+[37m2024-10-02 15:10:17,316 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('name', 'username')[0m
+[37m2024-10-02 15:10:17,373 INFO [base_page.py(base_input:22)] - 正在输入元素:('name', 'password'), value:123456[0m
+[37m2024-10-02 15:10:17,373 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('name', 'password')[0m
+[37m2024-10-02 15:10:17,438 INFO [base_page.py(base_input:22)] - 正在输入元素:('name', 'verify_code'), value:8888[0m
+[37m2024-10-02 15:10:17,439 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('name', 'verify_code')[0m
+[37m2024-10-02 15:10:17,496 INFO [base_page.py(base_click:17)] - 正在点击元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 15:10:17,497 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('name', 'sbtbutton')[0m
+[37m2024-10-02 15:10:20,197 INFO [base_page.py(base_input:22)] - 正在输入元素:('id', 'q'), value:iphone[0m
+[37m2024-10-02 15:10:20,197 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('id', 'q')[0m
+[37m2024-10-02 15:10:20,256 INFO [base_page.py(base_click:17)] - 正在点击元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 15:10:20,256 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('class name', 'ecsc-search-button')[0m
+[37m2024-10-02 15:10:20,708 INFO [base_page.py(base_click:17)] - 正在点击元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 15:10:20,709 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/ul/li[1]/div/div[1]/a')[0m
+[37m2024-10-02 15:10:24,289 INFO [base_page.py(base_click:17)] - 正在点击元素:('css selector', '#join_cart > i')[0m
+[37m2024-10-02 15:10:24,289 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('css selector', '#join_cart > i')[0m
+[37m2024-10-02 15:10:24,326 INFO [base_page.py(base_switch_to_frame:34)] - 正在切换到frame:('css selector', '[id*=layui-layer-iframe]')[0m
+[37m2024-10-02 15:10:24,327 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('css selector', '[id*=layui-layer-iframe]')[0m
+[37m2024-10-02 15:10:25,746 INFO [utils.py(get_el_text:105)] - 获取文本成功,内容:添加成功[0m
