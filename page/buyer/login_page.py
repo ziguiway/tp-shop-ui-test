@@ -17,6 +17,3 @@ class LoginPage(BasePageBuyer):
         self.base_input(self.__loc_password, password)
         self.base_input(self.__loc_verify_code, verify_code)
         self.base_click(self.__loc_login_btn)
-
-
-

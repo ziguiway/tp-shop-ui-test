@@ -7,4 +7,3 @@ from utils import DriverUtils
 class TestBegin:
     def test_begin(self):
         DriverUtils.change_admin_key(False)
-

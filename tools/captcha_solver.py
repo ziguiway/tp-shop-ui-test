@@ -1,10 +1,8 @@
+import logging
+from io import BytesIO
+
 import ddddocr
 import requests
-from io import BytesIO
-import logging
-
-
-
 
 
 class CaptchaSolver:

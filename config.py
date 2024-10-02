@@ -11,6 +11,7 @@ BASE_URL = "http://hmshop-test.itheima.net/"
 # 初始化 colorama
 init(autoreset=True)
 
+
 def basic_log_config():
     logger = logging.getLogger()
     logger.setLevel(logging.INFO)
@@ -53,6 +54,3 @@ def basic_log_config():
     # 将处理器添加到记录器
     logger.addHandler(lht)
     logger.addHandler(ls)
-
-
-

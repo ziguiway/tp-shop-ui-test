@@ -46,4 +46,3 @@ class TestLogin:
             utils.DriverUtils.get_driver("buyer").save_screenshot(
                 BASE_PATH + f"/screenshots/buyer/test_login{utils.TimeUtils.get_current_timestamp_int().__str__()}.png")
             raise e
-

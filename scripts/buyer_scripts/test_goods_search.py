@@ -19,7 +19,7 @@ class TestGoodsSearch(object):
     def teardown_method(self):
         utils.DriverUtils.quit_driver("buyer")
 
-    @pytest.mark.parametrize("goods_name", [("iphone",),("小米",)])
+    @pytest.mark.parametrize("goods_name", [("iphone",), ("小米",)])
     def test_goods_search(self, goods_name):
         self.home_page.goto_login_page()
         self.login_page.buyer_login("15716216311", "123456", "8888")

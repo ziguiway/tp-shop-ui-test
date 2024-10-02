@@ -1,7 +1,6 @@
 from selenium.webdriver.common.by import By
 
 from base.base_page import BasePageAdmin
-import base
 
 
 class LoginPage(BasePageAdmin):
