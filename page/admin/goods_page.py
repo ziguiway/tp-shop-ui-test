@@ -47,7 +47,7 @@ class GoodsPage(BasePageAdmin):
         """
 
         # 切换到指定的iframe
-        self.base_switch_to_frame(self.__loc_iframe[1])
+        self.base_switch_to_frame(self.__loc_iframe)
 
         # 点击添加商品按钮
         self.base_click(self.__loc_add_goods_btn)

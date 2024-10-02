@@ -1,8 +1,11 @@
+import pytest
+
 import utils
 from config import *
 from page.admin.login_page import LoginPage
 
 
+@pytest.mark.run(order=2)
 class TestLogin:
 
     @classmethod
@@ -22,4 +25,3 @@ class TestLogin:
             utils.DriverUtils.get_driver("admin").save_screenshot(
                 BASE_PATH + f"/screenshots/admin/test_login{utils.TimeUtils.get_current_timestamp_int().__str__()}.png")
             raise e
-        utils.DriverUtils.get_driver("admin").quit()

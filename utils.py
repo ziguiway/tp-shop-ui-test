@@ -19,6 +19,12 @@ class DriverUtils:
     __app_driver = None
     __admin_driver = None
 
+    __buyer_key = True
+
+    @classmethod
+    def change_buyer_key(cls):
+        cls.__buyer_key = not cls.__buyer_key
+
     @classmethod
     def __get_buyer_driver(cls):
         if cls.__buyer_driver is None:
@@ -32,6 +38,12 @@ class DriverUtils:
         if cls.__buyer_driver is not None:
             cls.__buyer_driver.quit()
             cls.__buyer_driver = None
+
+    __app_key = True
+
+    @classmethod
+    def change_app_key(cls):
+        cls.__app_key = not cls.__app_key
 
     @classmethod
     def __get_APP_driver(cls):
@@ -61,6 +73,13 @@ class DriverUtils:
         if cls.__app_driver is not None:
             cls.__app_driver.quit()
 
+    __admin_key = True
+
+    @classmethod
+    def change_admin_key(cls, key):
+        cls.__admin_key = key
+        print(cls.__admin_key)
+
     @classmethod
     def __get_admin_driver(cls):
         if cls.__admin_driver is None:
@@ -71,7 +90,7 @@ class DriverUtils:
 
     @classmethod
     def __quit_admin_driver(cls):
-        if cls.__admin_driver is not None:
+        if cls.__admin_driver is not None and cls.__admin_key:
             cls.__admin_driver.quit()
             cls.__admin_driver = None
 

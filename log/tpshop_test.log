@@ -1135,3 +1135,21 @@ Stacktrace:
 [37m2024-10-02 15:10:24,326 INFO [base_page.py(base_switch_to_frame:34)] - 正在切换到frame:('css selector', '[id*=layui-layer-iframe]')[0m
 [37m2024-10-02 15:10:24,327 INFO [base_page.py(base_find_element:13)] - 正在查找元素:('css selector', '[id*=layui-layer-iframe]')[0m
 [37m2024-10-02 15:10:25,746 INFO [utils.py(get_el_text:105)] - 获取文本成功,内容:添加成功[0m
+[37m2024-10-02 15:28:17,389 INFO [utils.py(get_el_text:123)] - 获取文本成功,内容:添加成功[0m
+[33m2024-10-02 15:29:30,577 WARNING [test_login.py(setup_class:27)] - 网页加载超时，停止加载。[0m
+[37m2024-10-02 15:29:33,483 INFO [captcha_solver.py(solve_captcha_from_url:16)] - 正在从 URL 下载图片: https://hmshop-test.itheima.net/index.php?m=Home&c=User&a=verify[0m
+[37m2024-10-02 15:29:35,065 INFO [captcha_solver.py(solve_captcha_from_url:22)] - 图片下载成功，正在识别验证码...[0m
+[37m2024-10-02 15:29:35,094 INFO [captcha_solver.py(solve_captcha_from_url:24)] - 验证码识别成功[0m
+[37m2024-10-02 15:40:50,960 INFO [utils.py(get_el_text:123)] - 获取文本成功,内容:添加成功[0m
+[33m2024-10-02 15:42:09,354 WARNING [test_login.py(setup_class:27)] - 网页加载超时，停止加载。[0m
+[37m2024-10-02 15:42:12,143 INFO [captcha_solver.py(solve_captcha_from_url:16)] - 正在从 URL 下载图片: https://hmshop-test.itheima.net/index.php?m=Home&c=User&a=verify[0m
+[37m2024-10-02 15:42:13,421 INFO [captcha_solver.py(solve_captcha_from_url:22)] - 图片下载成功，正在识别验证码...[0m
+[37m2024-10-02 15:42:13,452 INFO [captcha_solver.py(solve_captcha_from_url:24)] - 验证码识别成功[0m
+[37m2024-10-02 15:53:21,385 INFO [utils.py(get_el_text:123)] - 获取文本成功,内容:添加成功[0m
+[33m2024-10-02 15:54:41,541 WARNING [test_login.py(setup_class:27)] - 网页加载超时，停止加载。[0m
+[37m2024-10-02 15:54:43,925 INFO [captcha_solver.py(solve_captcha_from_url:16)] - 正在从 URL 下载图片: https://hmshop-test.itheima.net/index.php?m=Home&c=User&a=verify[0m
+[37m2024-10-02 15:54:45,330 INFO [captcha_solver.py(solve_captcha_from_url:22)] - 图片下载成功，正在识别验证码...[0m
+[37m2024-10-02 15:54:45,354 INFO [captcha_solver.py(solve_captcha_from_url:24)] - 验证码识别成功[0m
+[31m2024-10-02 16:25:43,192 ERROR [utils.py(is_el_exist_by_text:143)] - 元素未找到，key_text: 1727773109test_goods_add11，超时[0m
+[31m2024-10-02 16:31:47,343 ERROR [utils.py(is_el_exist_by_text:143)] - 元素未找到，key_text: 1727773109test_goods_add11，超时[0m
+[31m2024-10-02 16:36:17,278 ERROR [utils.py(is_el_exist_by_text:143)] - 元素未找到，key_text: 1727773109test_goods_add11，超时[0m
