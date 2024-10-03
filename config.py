@@ -1,15 +1,30 @@
-import logging
 import os
-from logging.handlers import TimedRotatingFileHandler
+import os
+import time
 
-from colorama import Fore, Style, init
+from colorama import init
 
 BASE_PATH = os.path.dirname(__file__)
 
 BASE_URL = "http://hmshop-test.itheima.net/"
 
+LODE_PAGE_MAX_TIME = 300
+
+TIMESTAMP = time.time().__str__()
+
+GOODS_NAME = "GOODS_NAME" + TIMESTAMP
+
 # 初始化 colorama
 init(autoreset=True)
+
+import logging
+from logging.handlers import TimedRotatingFileHandler
+from colorama import Fore, Style, init
+
+# 初始化 colorama
+init(autoreset=True)
+
+
 
 
 def basic_log_config():
@@ -28,11 +43,11 @@ def basic_log_config():
     # 控制台处理器，用于记录日志到控制台
     ls = logging.StreamHandler()
 
-    # 自定义日志格式器，添加颜色支持
+    # 自定义日志格式器，用于控制台输出
     class ColoredFormatter(logging.Formatter):
         COLORS = {
             'DEBUG': Fore.WHITE,
-            'INFO': Fore.WHITE,
+            'INFO': Fore.GREEN,
             'WARNING': Fore.YELLOW,
             'ERROR': Fore.RED,
             'CRITICAL': Fore.RED + Style.BRIGHT,
@@ -45,11 +60,14 @@ def basic_log_config():
 
     # 日志格式
     fmt = "%(asctime)s %(levelname)s [%(filename)s(%(funcName)s:%(lineno)d)] - %(message)s"
-    fm = ColoredFormatter(fmt)
 
-    # 为两个处理器设置格式器
-    ls.setFormatter(fm)
-    lht.setFormatter(fm)
+    # 控制台格式器，带颜色
+    colored_formatter = ColoredFormatter(fmt)
+    ls.setFormatter(colored_formatter)
+
+    # 文件格式器，不带颜色
+    file_formatter = logging.Formatter(fmt)
+    lht.setFormatter(file_formatter)
 
     # 将处理器添加到记录器
     logger.addHandler(lht)

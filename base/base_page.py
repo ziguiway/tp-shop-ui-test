@@ -3,11 +3,14 @@ import time
 
 import pyautogui
 import pyperclip
+from selenium.common import TimeoutException
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
 import utils
+from common.driver_type import DriverType
+from config import LODE_PAGE_MAX_TIME
 
 
 class BasePage:
@@ -77,17 +80,31 @@ class BasePage:
         # 等待上传完成
         time.sleep(5)
 
+    def base_to_page_with_timeout(self, loc, url=None, timeout=LODE_PAGE_MAX_TIME):
+        self.driver.set_page_load_timeout(timeout)
+        try:
+            if url is not None:
+                self.driver.get(url)
+            else:
+                self.base_click(loc)
+        except TimeoutException:
+            logging.warning("网页加载超时，停止加载。")
+            self.driver.execute_script("window.stop();")
+            # print(f"页面 '{url}' 加载超时，停止加载。")
+        finally:
+            self.driver.set_page_load_timeout(LODE_PAGE_MAX_TIME)
+
 
 class BasePageBuyer(BasePage):
     def __init__(self):
-        super().__init__("buyer")
+        super().__init__(DriverType.BUYER)
 
 
 class BasePageAdmin(BasePage):
     def __init__(self):
-        super().__init__("admin")
+        super().__init__(DriverType.ADMIN)
 
 
 class BasePageApp(BasePage):
     def __init__(self):
-        super().__init__("app")  # 这里可以根据需要调整角色
+        super().__init__(DriverType.APP)  # 这里可以根据需要调整角色

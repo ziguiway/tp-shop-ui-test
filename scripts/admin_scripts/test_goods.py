@@ -1,7 +1,9 @@
 import allure
 import pytest
 
+import config
 import utils
+from common.driver_type import DriverType
 from config import BASE_PATH
 from page.admin.goods_page import GoodsPage
 from page.admin.home_page import HomePage
@@ -21,11 +23,11 @@ class TestGoods:
 
     @classmethod
     def teardown_class(cls):
-        utils.DriverUtils.quit_driver("admin")
+        utils.DriverUtils.quit_driver(DriverType.ADMIN)
 
     @pytest.mark.parametrize(
         "goods_name, goods_price, goods_market_price, goods_category_1, goods_category_2, goods_category_3, is_free_shipping",
-        [(utils.TimeUtils.get_current_timestamp_int().__str__() + "test_goods_add", "100", "100", "12", "13", "187",
+        [(config.GOODS_NAME, "100", "100", "12", "13", "187",
           "1")])
     def test_goods_add(self, goods_name, goods_price, goods_market_price, goods_category_1, goods_category_2,
                        goods_category_3, is_free_shipping):
@@ -35,12 +37,12 @@ class TestGoods:
         self.goods_page.goods_add(goods_name, goods_price, goods_market_price, goods_category_1, goods_category_2,
                                   goods_category_3, is_free_shipping)
         try:
-            assert utils.is_el_exist_by_text("admin", "1727773109test_goods_add") is True
+            assert utils.is_el_exist_by_text(DriverType.ADMIN, config.GOODS_NAME) is True
         except AssertionError as e:
             # utils.DriverUtils.get_driver("admin").save_screenshot(
             #     BASE_PATH + f"/screenshots/admin/test_goods_add_{utils.TimeUtils.get_current_timestamp_int().__str__()}.png")
             allure.attach(
-                utils.DriverUtils.get_driver("admin").get_screenshot_as_png(),
+                utils.DriverUtils.get_driver(DriverType.ADMIN).get_screenshot_as_png(),
                 f"{BASE_PATH}/screenshots/admin/test_goods_add.png"
                 , allure.attachment_type.PNG
             )

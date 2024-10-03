@@ -10,7 +10,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
-from config import BASE_PATH
+from common.driver_type import DriverType
+from config import BASE_PATH, LODE_PAGE_MAX_TIME
 
 
 class DriverUtils:
@@ -22,8 +23,8 @@ class DriverUtils:
     __buyer_key = True
 
     @classmethod
-    def change_buyer_key(cls):
-        cls.__buyer_key = not cls.__buyer_key
+    def change_buyer_key(cls, key):
+        cls.__buyer_key = key
 
     @classmethod
     def __get_buyer_driver(cls):
@@ -35,19 +36,19 @@ class DriverUtils:
 
     @classmethod
     def __quit_buyer_driver(cls):
-        if cls.__buyer_driver is not None:
+        if cls.__buyer_driver is not None and cls.__buyer_key:
             cls.__buyer_driver.quit()
             cls.__buyer_driver = None
 
     __app_key = True
 
     @classmethod
-    def change_app_key(cls):
-        cls.__app_key = not cls.__app_key
+    def change_app_key(cls, key):
+        cls.__app_key = key
 
     @classmethod
     def __get_APP_driver(cls):
-        if cls.__app_driver is None:
+        if cls.__app_driver is None and cls.__app_key:
             # 设置启动
             desired_caps = {}
             # 必填-且正确
@@ -96,22 +97,22 @@ class DriverUtils:
 
     @classmethod
     def get_driver(cls, driver_type):
-        if driver_type == 'buyer':
+        if driver_type == DriverType.BUYER:
             return cls.__get_buyer_driver()
-        elif driver_type == 'app':
+        elif driver_type == DriverType.APP:
             return cls.__get_APP_driver()
-        elif driver_type == 'admin':
+        elif driver_type == DriverType.ADMIN:
             return cls.__get_admin_driver()
         else:
             return None
 
     @classmethod
     def quit_driver(cls, driver_type):
-        if driver_type == 'buyer':
+        if driver_type == DriverType.BUYER:
             cls.__quit_buyer_driver()
-        elif driver_type == 'app':
+        elif driver_type == DriverType.APP:
             cls.__quit_APP_driver()
-        elif driver_type == 'admin':
+        elif driver_type == DriverType.ADMIN:
             cls.__quit_admin_driver()
         else:
             logging.error(f"{driver_type} 参数错误")
@@ -128,14 +129,14 @@ def get_el_text(driver_type, xpath_str):
     return msg
 
 
-def is_el_exist_by_text(driver_type, key_text, timeout=10):
+def is_el_exist_by_text(driver_type, key_text, timeout=10, poll_frequency=0.5):
     try:
-        if driver_type == 'app':
+        if driver_type == DriverType.APP:
             xpath_str = f"//*[@text='{key_text}']"
         else:
             xpath_str = f"//*[text()='{key_text}']"
 
-        WebDriverWait(DriverUtils.get_driver(driver_type), timeout).until(
+        WebDriverWait(DriverUtils.get_driver(driver_type), timeout, poll_frequency=poll_frequency).until(
             EC.presence_of_element_located((By.XPATH, xpath_str))
         )
         return True  # 找到元素，返回 True
@@ -154,7 +155,6 @@ def build_data(file_name):
     for i in all_data.values():
         case_data.append(list(i.values()))
     return case_data
-
 
 class TimeUtils:
     @staticmethod
@@ -181,3 +181,19 @@ class TimeUtils:
     def get_time_difference(start_time, end_time):
         """计算两个时间之间的差值（秒）"""
         return (end_time - start_time).total_seconds()
+
+
+def load_page_with_timeout(driver_type, loc=None, url=None, timeout=LODE_PAGE_MAX_TIME):
+    driver = DriverUtils.get_driver(driver_type)
+    driver.set_page_load_timeout(timeout)
+    try:
+        if url is not None:
+            driver.get(url)
+        else:
+            driver.find_element(*loc).click()
+    except TimeoutException:
+        logging.warning("网页加载超时，停止加载。")
+        driver.execute_script("window.stop();")
+        # print(f"页面 '{url}' 加载超时，停止加载。")
+    finally:
+        driver.set_page_load_timeout(LODE_PAGE_MAX_TIME)
