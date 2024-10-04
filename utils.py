@@ -156,6 +156,7 @@ def build_data(file_name):
         case_data.append(list(i.values()))
     return case_data
 
+
 class TimeUtils:
     @staticmethod
     def get_current_timestamp():

@@ -1,5 +1,4 @@
 import os
-import os
 import time
 
 from colorama import init
@@ -23,8 +22,6 @@ from colorama import Fore, Style, init
 
 # 初始化 colorama
 init(autoreset=True)
-
-
 
 
 def basic_log_config():

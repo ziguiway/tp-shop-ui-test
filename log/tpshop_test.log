@@ -10,3 +10,35 @@
 2024-10-04 08:48:53,665 INFO [login_page.py(buyer_login:45)] - 登录成功
 2024-10-04 08:48:58,742 WARNING [utils.py(load_page_with_timeout:195)] - 网页加载超时，停止加载。
 2024-10-04 08:49:05,492 INFO [utils.py(get_el_text:125)] - 获取文本成功,内容:添加成功
+2024-10-04 08:55:25,203 WARNING [utils.py(load_page_with_timeout:196)] - 网页加载超时，停止加载。
+2024-10-04 08:55:28,187 INFO [login_page.py(buyer_login:29)] - 获取验证码图片: https://hmshop-test.itheima.net/index.php?m=Home&c=User&a=verify
+2024-10-04 08:55:28,272 INFO [captcha_solver.py(solve_captcha_from_url:14)] - 正在从 URL 下载图片: https://hmshop-test.itheima.net/index.php?m=Home&c=User&a=verify
+2024-10-04 08:55:29,668 INFO [captcha_solver.py(solve_captcha_from_url:20)] - 图片下载成功，正在识别验证码...
+2024-10-04 08:55:29,706 INFO [captcha_solver.py(solve_captcha_from_url:22)] - 验证码识别成功
+2024-10-04 08:55:29,711 INFO [login_page.py(buyer_login:31)] - 解决验证码: 88b8
+2024-10-04 08:55:29,712 INFO [login_page.py(buyer_login:34)] - 输入用户名和密码
+2024-10-04 08:55:29,918 INFO [login_page.py(buyer_login:40)] - 点击登录按钮
+2024-10-04 08:55:30,295 WARNING [login_page.py(buyer_login:49)] - 登录失败，验证码错误
+2024-10-04 09:26:02,705 WARNING [utils.py(load_page_with_timeout:196)] - 网页加载超时，停止加载。
+2024-10-04 09:26:03,674 INFO [login_page.py(buyer_login:29)] - 获取验证码图片: https://hmshop-test.itheima.net/index.php?m=Home&c=User&a=verify
+2024-10-04 09:26:03,763 INFO [captcha_solver.py(solve_captcha_from_url:14)] - 正在从 URL 下载图片: https://hmshop-test.itheima.net/index.php?m=Home&c=User&a=verify
+2024-10-04 09:26:04,095 INFO [captcha_solver.py(solve_captcha_from_url:20)] - 图片下载成功，正在识别验证码...
+2024-10-04 09:26:04,113 INFO [captcha_solver.py(solve_captcha_from_url:22)] - 验证码识别成功
+2024-10-04 09:26:04,119 INFO [login_page.py(buyer_login:31)] - 解决验证码: 8888
+2024-10-04 09:26:04,120 INFO [login_page.py(buyer_login:34)] - 输入用户名和密码
+2024-10-04 09:26:04,297 INFO [login_page.py(buyer_login:40)] - 点击登录按钮
+2024-10-04 09:26:34,878 ERROR [utils.py(is_el_exist_by_text:144)] - 元素未找到，key_text: 验证码错误，超时
+2024-10-04 09:26:34,879 INFO [login_page.py(buyer_login:45)] - 登录成功
+2024-10-04 09:26:39,962 WARNING [utils.py(load_page_with_timeout:196)] - 网页加载超时，停止加载。
+2024-10-04 09:26:43,224 INFO [utils.py(get_el_text:125)] - 获取文本成功,内容:添加成功
+2024-10-04 09:37:18,557 WARNING [utils.py(load_page_with_timeout:196)] - 网页加载超时，停止加载。
+2024-10-04 09:37:19,397 INFO [login_page.py(buyer_login:29)] - 获取验证码图片: https://hmshop-test.itheima.net/index.php?m=Home&c=User&a=verify
+2024-10-04 09:37:19,483 INFO [captcha_solver.py(solve_captcha_from_url:14)] - 正在从 URL 下载图片: https://hmshop-test.itheima.net/index.php?m=Home&c=User&a=verify
+2024-10-04 09:37:19,821 INFO [captcha_solver.py(solve_captcha_from_url:20)] - 图片下载成功，正在识别验证码...
+2024-10-04 09:37:19,840 INFO [captcha_solver.py(solve_captcha_from_url:22)] - 验证码识别成功
+2024-10-04 09:37:19,845 INFO [login_page.py(buyer_login:31)] - 解决验证码: 8888
+2024-10-04 09:37:19,845 INFO [login_page.py(buyer_login:34)] - 输入用户名和密码
+2024-10-04 09:37:20,022 INFO [login_page.py(buyer_login:40)] - 点击登录按钮
+2024-10-04 09:37:50,570 ERROR [utils.py(is_el_exist_by_text:144)] - 元素未找到，key_text: 验证码错误，超时
+2024-10-04 09:37:50,571 INFO [login_page.py(buyer_login:45)] - 登录成功
+2024-10-04 09:38:00,115 INFO [utils.py(get_el_text:125)] - 获取文本成功,内容:添加成功
