@@ -194,6 +194,5 @@ def load_page_with_timeout(driver_type, loc=None, url=None, timeout=LODE_PAGE_MA
     except TimeoutException:
         logging.warning("网页加载超时，停止加载。")
         driver.execute_script("window.stop();")
-        # print(f"页面 '{url}' 加载超时，停止加载。")
     finally:
         driver.set_page_load_timeout(LODE_PAGE_MAX_TIME)
