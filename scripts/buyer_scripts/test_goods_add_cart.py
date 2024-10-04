@@ -1,3 +1,5 @@
+import logging
+
 import pytest
 from selenium.webdriver.common.by import By
 
@@ -27,9 +29,10 @@ class TestGoodsAddCart:
         utils.DriverUtils.quit_driver(DriverType.BUYER)
 
     def test_add_cart(self):
+        logging.info("正在加入购物车test_add_cart")
         # self.home_page.goto_login_page()
         # self.login_page.buyer_login("15716216311", "123456", "8888")
-        utils.load_page_with_timeout(DriverType.BUYER, ((By.XPATH, "/html/body/div[2]/div/div[2]/a[2]")), timeout=60)
+        utils.load_page_with_timeout(DriverType.BUYER, ((By.XPATH, "/html/body/div[2]/div/div[2]/a[2]")), timeout=5)
         self.home_page.goods_search(config.GOODS_NAME)
         self.goods_list_page.goto_goods_detail_page()
         self.goods_details_page.add_to_cart()

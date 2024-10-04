@@ -42,3 +42,51 @@
 2024-10-04 09:37:50,570 ERROR [utils.py(is_el_exist_by_text:144)] - 元素未找到，key_text: 验证码错误，超时
 2024-10-04 09:37:50,571 INFO [login_page.py(buyer_login:45)] - 登录成功
 2024-10-04 09:38:00,115 INFO [utils.py(get_el_text:125)] - 获取文本成功,内容:添加成功
+2024-10-04 09:40:23,236 ERROR [utils.py(is_el_exist_by_text:147)] - 获取文本元素失败, key_text: admin, 异常信息: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=129.0.6668.90)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6224BB645+29573]
+	(No symbol) [0x00007FF622430470]
+	(No symbol) [0x00007FF6222EB6EA]
+	(No symbol) [0x00007FF6222BFCD5]
+	(No symbol) [0x00007FF62236EF67]
+	(No symbol) [0x00007FF622387FC1]
+	(No symbol) [0x00007FF6223670A3]
+	(No symbol) [0x00007FF6223312DF]
+	(No symbol) [0x00007FF622332441]
+	GetHandleVerifier [0x00007FF6227EC58D+3375821]
+	GetHandleVerifier [0x00007FF622837987+3684039]
+	GetHandleVerifier [0x00007FF62282CDAB+3640043]
+	GetHandleVerifier [0x00007FF62257B7C6+816390]
+	(No symbol) [0x00007FF62243B77F]
+	(No symbol) [0x00007FF6224375A4]
+	(No symbol) [0x00007FF622437740]
+	(No symbol) [0x00007FF62242659F]
+	BaseThreadInitThunk [0x00007FFCE8347374+20]
+	RtlUserThreadStart [0x00007FFCEA33CC91+33]
+
+2024-10-04 09:44:27,220 WARNING [utils.py(load_page_with_timeout:196)] - 网页加载超时，停止加载。
+2024-10-04 09:44:28,064 INFO [login_page.py(buyer_login:29)] - 获取验证码图片: https://hmshop-test.itheima.net/index.php?m=Home&c=User&a=verify
+2024-10-04 09:44:28,141 INFO [captcha_solver.py(solve_captcha_from_url:14)] - 正在从 URL 下载图片: https://hmshop-test.itheima.net/index.php?m=Home&c=User&a=verify
+2024-10-04 09:44:28,454 INFO [captcha_solver.py(solve_captcha_from_url:20)] - 图片下载成功，正在识别验证码...
+2024-10-04 09:44:28,479 INFO [captcha_solver.py(solve_captcha_from_url:22)] - 验证码识别成功
+2024-10-04 09:44:28,482 INFO [login_page.py(buyer_login:31)] - 解决验证码: 8888
+2024-10-04 09:44:28,482 INFO [login_page.py(buyer_login:34)] - 输入用户名和密码
+2024-10-04 09:44:28,653 INFO [login_page.py(buyer_login:40)] - 点击登录按钮
+2024-10-04 09:44:59,233 ERROR [utils.py(is_el_exist_by_text:144)] - 元素未找到，key_text: 验证码错误，超时
+2024-10-04 09:44:59,233 INFO [login_page.py(buyer_login:45)] - 登录成功
+2024-10-04 09:45:08,309 INFO [utils.py(get_el_text:125)] - 获取文本成功,内容:添加成功
+2024-10-04 09:50:46,407 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
+2024-10-04 09:50:59,663 WARNING [selenium_manager.py(_process_logs:138)] - There was an error managing chromedriver (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
+2024-10-04 09:51:05,976 WARNING [utils.py(load_page_with_timeout:196)] - 网页加载超时，停止加载。
+2024-10-04 09:51:06,832 INFO [login_page.py(buyer_login:29)] - 获取验证码图片: https://hmshop-test.itheima.net/index.php?m=Home&c=User&a=verify
+2024-10-04 09:51:06,911 INFO [captcha_solver.py(solve_captcha_from_url:14)] - 正在从 URL 下载图片: https://hmshop-test.itheima.net/index.php?m=Home&c=User&a=verify
+2024-10-04 09:51:07,266 INFO [captcha_solver.py(solve_captcha_from_url:20)] - 图片下载成功，正在识别验证码...
+2024-10-04 09:51:07,287 INFO [captcha_solver.py(solve_captcha_from_url:22)] - 验证码识别成功
+2024-10-04 09:51:07,290 INFO [login_page.py(buyer_login:31)] - 解决验证码: 8888
+2024-10-04 09:51:07,290 INFO [login_page.py(buyer_login:34)] - 输入用户名和密码
+2024-10-04 09:51:07,462 INFO [login_page.py(buyer_login:40)] - 点击登录按钮
+2024-10-04 09:51:38,013 ERROR [utils.py(is_el_exist_by_text:144)] - 元素未找到，key_text: 验证码错误，超时
+2024-10-04 09:51:38,013 INFO [login_page.py(buyer_login:45)] - 登录成功
+2024-10-04 09:51:47,382 INFO [utils.py(get_el_text:125)] - 获取文本成功,内容:添加成功

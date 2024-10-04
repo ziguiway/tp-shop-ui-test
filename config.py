@@ -1,20 +1,16 @@
 import os
 import time
 
-from colorama import init
-
 BASE_PATH = os.path.dirname(__file__)
 
 BASE_URL = "http://hmshop-test.itheima.net/"
 
 LODE_PAGE_MAX_TIME = 300
 
-TIMESTAMP = time.time().__str__()
+TIMESTAMP = int(time.time()).__str__()
 
 GOODS_NAME = "GOODS_NAME" + TIMESTAMP
 
-# 初始化 colorama
-init(autoreset=True)
 
 import logging
 from logging.handlers import TimedRotatingFileHandler
